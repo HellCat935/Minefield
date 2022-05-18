@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Campo Minado</title>
+    <style>
+      .bntBoard {
+        background-color: rgba(255, 224, 224, 0.589);
+        color: rgba(255, 224, 224, 0);
+        height: 30px;
+        width: 30px;
+        padding: 2px;
+      }
+
+      .bntBoard:active {
+        background-color: rgb(255, 184, 243);
+        color: rgba(255, 184, 243, 0);
+        height: 30px;
+        width: 30px;
+        padding: 2px;
+      }
+
+      .bntBoard2 {
+        background-color: rgba(0, 0, 0, 0.623);
+        border-color: rgba(240, 248, 255, 0.089);
+        color: aliceblue;
+        height: 30px;
+        width: 30px;
+        padding: 2px;
+        pointer-events: none;
+      }
+      .bntBoard3 {
+        background-color: rgb(255, 0, 0);
+        border-color: rgb(255, 0, 0);
+        color: rgb(255, 0, 0);
+        height: 30px;
+        width: 30px;
+        padding: 2px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="ALL">
+      <div class="Board">
+        <table id="gameBoard"></table>
+        <button id="BntStart" class="difbnt" onclick="Gerar()">Start</button>
+        <script src="game3.js"></script>
+      </div>
+    </div>
+  </body>
+</html>
